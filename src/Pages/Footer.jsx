@@ -1,4 +1,3 @@
-
 import {
   Box,
   Container,
@@ -63,19 +62,19 @@ export default function Footer() {
       color={useColorModeValue('gray.600', 'gray.200')}
       fontSize="12px">
         <Box textAlign="left" maxW="81%" pt={"50px"}  display={{base:"none",md:"block"}} margin="auto">
-            <Text fontWeight={600}>Embrace Your Dream Lifestyle With RentoMojo In Mumbai</Text>
-            <Text objectFit={"cover"}>RentoMojo is one of India’s best-known rental brands with a pan-India presence. You can rent furniture, appliances, and electronics from us in Mumbai for a monthly fee. Instead of paying tens of thousands to purchase said items from a store, you can rent them from us at a discounted price.</Text>
+            <Text fontWeight={600}>Embrace Your Dream Lifestyle With FurniFlex In Ahmedabad</Text>
+            <Text objectFit={"cover"}>FurniFlex is one of India’s best-known rental brands with a pan-India presence. You can rent furniture, appliances, and electronics from us in Ahmedabad for a monthly fee. Instead of paying tens of thousands to purchase said items from a store, you can rent them from us at a discounted price.</Text>
             <br />
-            <Text>RentoMojo provides very reasonable rental rates, allowing you to save a great deal of money. We offer convenient rental options, short-term and long-term. Our long-term plans offer maximum savings. No matter what plan you sign up for, you receive added benefits from us such as free relocation, damage waiver, and free maintenance.</Text>
+            <Text>FurniFlex provides very reasonable rental rates, allowing you to save a great deal of money. We offer convenient rental options, short-term and long-term. Our long-term plans offer maximum savings. No matter what plan you sign up for, you receive added benefits from us such as free relocation, damage waiver, and free maintenance.</Text>
             <br />
-            <Text>You’ll find top-rated, best-selling products in our inventory, made by the most dependable brands in the market. You can rent any item from us online in a matter of minutes. After we process your order, we will deliver it to you anywhere in Mumbai. We offer fast delivery all over the city, including localities such as Lower Parel, Worli, Byculla, Bandra, and Santacruz.</Text>
+            <Text>
+            Discover our top-rated, best-selling products from the most reliable brands in the market. You can easily rent any item from our online store in just a few minutes. Once your order is processed, we will deliver it anywhere in Ahmedabad. Enjoy quick delivery across the city.</Text>
             <br />
-            <Text>Read More  </Text>
         </Box>
       <Container as={Stack} maxW={'6xl'} py={10} m="auto">
         <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={8}>
           <Stack align={'flex-start'}>
-            <ListHeader>RENTOMOJO</ListHeader>
+            <ListHeader>FurniFlex</ListHeader>
             <Text>About Us</Text>
             <Text>Culture</Text>
             <Text>Investors</Text>
