@@ -104,7 +104,7 @@ export default function Footer() {
             <ListHeader>NEED HELP</ListHeader>
             <Input placeholder='Chat with us (9AM - 6PM)' fontSize={"10px"} width="200px"></Input>
            
-            <Text ml="20px"><TagLeftIcon as={BiPaperPlane}></TagLeftIcon> jo@rentomojo.com</Text>
+            <Text ml="20px"><TagLeftIcon as={BiPaperPlane}></TagLeftIcon> jo@furniflex.com</Text>
             <ListHeader>DOWNLOAD APP</ListHeader>
             <Image width={"100px"} src={AppStoreBadge}></Image>
           </Stack>

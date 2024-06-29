@@ -1,4 +1,4 @@
-import { Box, GridItem } from "@chakra-ui/react"
+import { Box } from "@chakra-ui/react"
 import { 
     Radio,
     RadioGroup,
@@ -14,7 +14,6 @@ import React from "react"
 import style from "./Furniture.module.css"
 import { GridStructure } from "../Components/GridStructure"
 import file from "../db.json"
-import { Minibar } from "../Components/Minibar"
 let data=file.furniture
 
 export const Furniture=()=>{
@@ -23,7 +22,7 @@ export const Furniture=()=>{
         <Box>
             <Box p={"10px"} bg="#e2eaf5" mb="10px" display={"flex"} justifyContent={"space-between"}>
             <Linkage A2={"Furniture"} A3={value.charAt(0).toUpperCase() + value.slice(1)}/>
-            <Minibar></Minibar>
+
             </Box>
         <Box display={"flex"} w={"90%"} margin="auto">
             <Box  >          

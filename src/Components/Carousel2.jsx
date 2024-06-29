@@ -6,43 +6,7 @@ import { useToast } from "@chakra-ui/react";
 import { AuthContext } from "../Context/AuthContext";
 import { useContext } from "react";
 let data=[
-    {
-        "image2": "https://www.rentomojo.com/bangalore/electronics/rent-oneplus-7-pro/91631",
-        "image": "https://p.rmjo.in/productSquare/mxzy0xf9-500x500.jpg",
-        "title": "OnePlus 7 Pro (Mirror Gray)",
-        "price": "1669",
-        "days": "3 days",
-        "delivery": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg",
-        "id": 4
-      },      {
-        "id": 3000018,
-        "image": "https://p.rmjo.in/productSquare/e2nc1yzg-500x500.jpg",
-        "title": "LED TV - 40",
-        "price": 1269,
-        "stock": "available",
-        "category": "telivision",
-        "days": "3 days",
-        "delivery": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-      },      {
-        "id": 3000012,
-        "image": "https://p.rmjo.in/productSquare/z227w1xz-500x500.jpg",
-        "title": "Semi Automatic Washing Machine",
-        "price": 479,
-        "stock": "available",
-        "category": "washingmachine",
-        "days": "2 days",
-        "delivery": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-      },    
-    {
-        "id": 300005,
-        "image": "https://p.rmjo.in/productSquare/x0to9y4x-500x500.jpg",
-        "title": "Mini Fridge",
-        "price": 449,
-        "stock": "available",
-        "category": "fridge",
-        "days": "3 days",
-        "delivery": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-      },      
+      
     {  "image": "https://p.rmjo.in/productSquare/sk1pofns-500x500.jpg",
       "title": "Aurora Wooden Queen Bed (6x5)",
       "price": 539,
@@ -113,24 +77,6 @@ let data=[
         "days": "3 days",
         "id": 23
       },   {
-        "id": 300006,
-        "image": "https://p.rmjo.in/productSquare/ry27prsa-500x500.jpg",
-        "title": "Single Door Fridge (210 Litre)",
-        "price": 809,
-        "stock": "available",
-        "category": "fridge",
-        "days": "3 days",
-        "delivery": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-      },      {
-        "id": 3000013,
-        "image": "https://p.rmjo.in/productSquare/zufkl87m-500x500.jpg",
-        "title": "Microwave Solo 20L",
-        "price": 299,
-        "stock": "available",
-        "category": "microwaveandinduction",
-        "days": "3 days",
-        "delivery": "https://www.rentomojo.com/public/images/fast-delivery/fast-delivery.svg"
-      }, {
         "image": "https://p.rmjo.in/productSquare/durxsu1c-500x500.jpg",
         "title": "Morris Office Chair",
         "price": 199,
