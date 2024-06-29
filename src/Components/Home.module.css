@@ -1,10 +1,33 @@
-
 .tag {
     text-align: center;
 }
   
-.slick-slide img {
+.imgslider {
+    width: 80%;
+    height: 60vh; /* Adjust the height as needed */
     margin: auto;
-    width: 50%;
-    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgslider .slick-slider {
+    height: 100%;
+}
+
+.imgslider .slick-list {
+    height: 100%;
+}
+
+.imgslider .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.imgslider img {
+    border-radius: 20px;
+    max-height: 100%;
+    object-fit: cover;
 }
