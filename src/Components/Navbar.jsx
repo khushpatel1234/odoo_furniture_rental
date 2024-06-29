@@ -1,4 +1,3 @@
-import Logo from "../Photos/Daco_6048519.png"
 import {Simple_Modal} from "./Modal"
 import React, { useContext,useState } from "react";
 import {
