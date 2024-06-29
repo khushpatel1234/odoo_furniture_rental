@@ -83,7 +83,7 @@ const Summary=({Prrice})=>{
               </Box>
             </Box>
           </Box>
-          <Button m="20px" bg="red" color={"white"} _hover={{bg:"red.400"}} onClick={()=>{totalItem(0);totalPrice(0);setDetails([]);return(
+          <Button m="20px" bg="blue" color={"white"} _hover={{bg:"red.400"}} onClick={()=>{totalItem(0);totalPrice(0);setDetails([]);return(
             toast({
             title: 'Order Placed Successfully',
             description: "Your order will be deliverd in a 3-4 working days",

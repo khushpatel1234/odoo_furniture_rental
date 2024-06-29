@@ -65,7 +65,26 @@ import {
             />
           </Flex>
           <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
-                <NavLink to="/"><Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8KdSf8-GojXhMVWiyraRD2RozGH1QAmMYmA&usqp=CAU" height={{base:"20px",md:"30px",xl:"30px"}} alt='Dan Abramov' /></NavLink>
+          <NavLink 
+  to="/" 
+  style={{
+    textDecoration: 'none', 
+    color: '#2c3e50', // Dark gray color
+    fontSize: '24px', // Larger font size
+    fontWeight: '600', // Semi-bold
+    fontFamily: 'Arial, sans-serif', // Font family
+    letterSpacing: '0.5px', // Slightly spaced letters
+
+    transition: 'background-color 0.3s', // Smooth background color transition on hover
+  }}
+  activeStyle={{
+    fontWeight: 'bold', // Different style when active
+    color: '#e74c3c', // Change color when active
+  }}
+>
+  Furniflex
+</NavLink>
+
                 <div class="rento-sprite rento-sprite-logo"></div>
                 <Box display={{base:"none",md:"inline-flex"}}><Simple_Modal /></Box>
           </Flex>
@@ -79,7 +98,7 @@ import {
             <Button
               as={'a'}
               fontSize={'sm'}
-              fontWeight={400}
+              fontWeight={500}
               variant={'link'}
               mt="10px"
             >

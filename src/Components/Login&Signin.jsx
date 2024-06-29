@@ -85,15 +85,29 @@ export const TransitionExample=({setName})=> {
   }
   return (
     <>
-      <Button onClick={onOpen} display={{ base: 'none', md: 'inline-flex' }}
-              fontSize={'sm'}
-              fontWeight={400}
-              color={'white'}
-              bg={'red'}
-              href={'#'}
-              _hover={{
-                bg: 'pink.300',
-              }}>Login/Signin</Button>
+      <Button
+  onClick={onOpen}
+  display={{ base: 'none', md: 'inline-flex' }}
+  fontSize={'md'}
+  fontWeight={500}
+  color={'white'}
+  bg={'#3182CE'}
+  px={6}
+  py={4}
+  borderRadius={'md'}
+  boxShadow={'md'}
+  _hover={{
+    bg: '#2B6CB0',
+    boxShadow: 'lg'
+  }}
+  _active={{
+    bg: '#2C5282',
+    transform: 'scale(0.98)',
+  }}
+>
+  Login/Signin
+</Button>
+
       <Modal
         isCentered
         onClose={onClose}
@@ -139,7 +153,7 @@ export const TransitionExample=({setName})=> {
                 bg={'red'}
                 color={'white'}
                 _hover={{
-                  bg: 'red.700',
+                  bg: 'blue.400',
                 }}
                 onClick={handleSubmit}
                 >
@@ -270,7 +284,7 @@ function BasicUsage({onChal,setName}){
                 bg={'red'}
                 color={'white'}
                 _hover={{
-                  bg: 'red.700',
+                  bg: 'blue.400',
                 }}>
                 Sign up
               </Button>
