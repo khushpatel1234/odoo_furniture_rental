@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# FurniFlex - Furniture Renting Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+FurniFlex is a comprehensive furniture renting platform that offers a seamless experience for users looking to rent furniture. The website features robust user management and access control mechanisms, ensuring a secure environment for all users. Password encryption is handled using bcrypt, providing an additional layer of security for user data. FurniFlex categorizes different types of furniture, making it easy for users to browse and find what they need. 
 
-## Available Scripts
+The platform integrates Stripe as its payment gateway, facilitating smooth and secure transactions. Users can easily search for furniture and specify the number of days they want to rent it. This search functionality enhances user experience by allowing quick and efficient access to the desired furniture. With Stripe's reliable payment processing, users can confidently complete their rental transactions.
 
-In the project directory, you can run:
+All data for FurniFlex is stored in a MongoDB database, leveraging its flexibility and scalability. The backend is managed using Mongoose, ensuring efficient data handling and schema management. Whether you're a student, a professional, or someone in need of temporary furniture solutions, FurniFlex is designed to meet your rental needs with ease and security.
 
-### `npm start`
+# Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. NodeJS
+2. ReactJS
+3. MongoDB
+4. ExpressJS
+5. Stripe (Payment Gateway)
+6. Redux
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# How to Run the Project
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. cd root directory
+2. npm i
+3. cd backend
+4. npm i
+5. cd root directory
+6. npm start
+7. cd backend
+8. node server.js
