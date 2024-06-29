@@ -123,27 +123,8 @@ export default function Footer() {
           spacing={4}
           justify={{ md: 'space-between' }}
           align={{ md: 'center' }}>
-          <Text>© 2022 Chakra Templates. All rights reserved</Text>
-          <Stack direction={'row'} spacing={6} fontSize="15px">
-            <SocialButton >
-              <FaTwitter />
-            </SocialButton>
-            <SocialButton label={'YouTube'}>
-              <FaYoutube />
-            </SocialButton>
-            <SocialButton label={'Instagram'}>
-              <FaInstagram />
-            </SocialButton>
-            <SocialButton label={'Facebook'}>
-              <BsFacebook />
-            </SocialButton>
-            <SocialButton label={'Dribble'}>
-              <AiFillDribbbleCircle />
-            </SocialButton>
-            <SocialButton label={'Twitter'}>
-              <AiFillTwitterCircle />
-            </SocialButton>
-          </Stack>
+          <Text>©2024 All rights reserved</Text>
+          
           <Text cursor={"pointer"} onClick={GoUp}><TagLeftIcon as={BiUpArrowAlt}></TagLeftIcon> Go Up</Text>
         </Container>
       </Box>
