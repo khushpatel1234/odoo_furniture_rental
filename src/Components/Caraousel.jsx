@@ -8,22 +8,22 @@ import { BiBorderRadius } from "react-icons/bi";
 const ImageSlider = () => {
     const images = [{
         id: 1,
-        src: "https://s.rmjo.in/Fitness-offer-banner-for-Web--2.jpg",
+        src: "https://images.pexels.com/photos/1543447/pexels-photo-1543447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         alt: "Image 1"
     },
     {
         id: 2,
-        src: "https://s.rmjo.in/AC-Offer-Banner-Web-.jpg",
+        src: "https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         alt: "Image 2 "
     },
     {
         id: 3,
-        src: "https://s.rmjo.in/Paytm-Bank-Desktop-banner-%20(1).jpg",
+        src: "https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         alt: "Image 3"
     },
     {
         id: 4,
-        src: "https://s.rmjo.in/WP-Web.png",
+        src: "https://images.pexels.com/photos/115747/pexels-photo-115747.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         alt: "Image 4"
     }
     ];
@@ -40,12 +40,17 @@ const ImageSlider = () => {
   return (
     <>
 
-      <div className="imgslider" style={{width:"80%" ,align:"center" ,margin:"auto", }}>
+      <div className="imgslider" style={{width:"80%" ,height: "100%" ,align:"center" ,margin:"auto", }}>
         <Box  mt="2">
         <Slider {...settings}>
           {images.map((item) => (
             <div key={item.id}>
-              <img style={{borderRadius:"20px"}} src={item.src}  alt={item.alt} />
+              <img style={{
+                  borderRadius: "20px",
+                  height: "450px", // Set desired height
+                  objectFit: "cover",
+                  width: "100%" // Ensure the image covers the width
+                }} src={item.src}  alt={item.alt} />
             </div>
           ))}
         </Slider>
